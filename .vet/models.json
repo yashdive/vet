@@ -72,6 +72,20 @@
         }
       }
     },
+    "openrouter": {
+      "name": "OpenRouter",
+      "api_type": "openai_compatible",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "models": {
+        "nemotron-3-nano-30b-a3b": {
+          "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
+          "context_window": 131072,
+          "max_output_tokens": 16384,
+          "supports_temperature": true
+        }
+      }
+    },
     "groq": {
       "name": "Groq",
       "api_type": "openai_compatible",
